@@ -7,7 +7,7 @@ Publicado por autorización expresa de FenixPoderoso el 31-10-2026 (America/Punt
 - Visibilidad conservada: privado.
 - Commit de documentación inicial: `cfeba185293dcc9dc131d7fe7597c4a639bc81b1`.
 - Código completo: adjunto `Fenix-Emulator-0.0.1-source.zip`, con 4.744 entradas.
-- El árbol de fuentes aún no está publicado como carpetas navegables: Git no dispone de autenticación. El código completo sí está disponible para descargar en el archivo adjunto.
+- Tras completar la autenticación oficial de Git, el árbol completo de fuentes se integra en main como carpetas navegables. Se conservan los commits de documentación ya publicados. La fuente se incorpora como instantánea porque la copia de la base tiene historial superficial; la rama local anterior y la referencia del commit base se conservan.
 - Los archivos automáticos de GitHub llamados Source code contienen la instantánea de documentación de la etiqueta; para compilar debe utilizarse el ZIP adjunto con nombre Fenix.
 
 ## Integridad verificada

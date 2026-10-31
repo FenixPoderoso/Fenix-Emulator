@@ -42,4 +42,3 @@ No incluir datos personales, claves, firmware, juegos, partidas ni configuracion
 La opción local `-DEDEN_BANANZA_SHADER_TESTS=ON` habilita `bananza_shader_tests`. El filtro `[bananza-half]` y la unión `*packed half predicates*,[bananza-half]` validan el parche HSETP2 heredado del trabajo local. En la preparación original se observaron problemas de orden de enlace de este ejecutable; el motor normal sí enlazó. Ver [el historial técnico](FENIX_HISTORY.md).
 
 El script `scripts/package-fenix-windows.ps1` automatiza el empaquetado desde una compilación y un prefijo MINGW64 existentes. Crea una carpeta nueva y no copia datos de usuario. Su sintaxis fue comprobada; esta entrega se empaquetó con las bibliotecas de la compilación local existente. El icono puede regenerarse con `scripts/generate-fenix-icon.ps1`.
-

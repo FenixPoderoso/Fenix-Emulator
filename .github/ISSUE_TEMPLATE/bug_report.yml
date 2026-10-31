@@ -1,0 +1,22 @@
+name: Error en Fenix Emulator
+description: Describe un problema reproducible.
+title: "[Error] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Versión de Fenix y sistema operativo
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Pasos y resultado observado
+      description: Indica qué esperabas y qué ocurrió; incluye GPU y controlador si afecta a gráficos.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia
+      description: Adjunta solo capturas y fragmentos de registro pertinentes, sin datos personales, claves, firmware ni juegos.

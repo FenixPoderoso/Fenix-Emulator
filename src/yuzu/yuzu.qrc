@@ -1,0 +1,13 @@
+<!--
+SPDX-FileCopyrightText: 2021 yuzu Emulator Project
+SPDX-License-Identifier: GPL-2.0-or-later
+-->
+<RCC>
+    <qresource prefix="/img">
+        <file alias="eden.ico">../../dist/fenix.ico</file>
+        <file alias="fenix.ico">../../dist/fenix.ico</file>
+    </qresource>
+    <qresource prefix="/fenix">
+        <file alias="style.qss">../../dist/fenix.qss</file>
+    </qresource>
+</RCC>

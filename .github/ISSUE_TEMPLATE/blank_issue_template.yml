@@ -1,0 +1,9 @@
+name: Consulta técnica
+description: Consulta sobre Fenix Emulator.
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Consulta
+    validations:
+      required: true

@@ -1,45 +1,45 @@
 # Fenix Emulator
 
-**0.0.1 · FenixPoderoso · Windows x64 · Experimental**
+**Versión 0.0.1 · Proyecto de FenixPoderoso · Windows x64**
 
-Una interfaz propia para tu biblioteca de juegos, con diseño oscuro y acentos ámbar y turquesa. Conserva el motor y los ajustes de video, audio y controles de la base.
+Una interfaz propia para organizar y ejecutar tu biblioteca, con diseño oscuro, acentos ámbar y turquesa, y configuración de video, audio y controles familiar.
 
-![Biblioteca de Fenix Emulator](fenix-library.png)
+![Interfaz de Fenix Emulator](docs/images/fenix-library.png)
 
 ## Descargas y código fuente
 
-En [Releases](https://github.com/FenixPoderoso/fenix-emulator/releases) están:
+[Versión experimental v0.0.1 y paquetes verificados](https://github.com/FenixPoderoso/fenix-emulator/releases/tag/v0.0.1). El árbol completo del código está disponible en este repositorio, con las carpetas `src`, `externals`, `dist`, `docs` y `scripts`.
 
-- **Fenix-Emulator-0.0.1-Windows-x64.zip**: programa portable completo, DLL, plugins y licencias.
-- **Fenix-Emulator-0.0.1-source.zip**: código fuente completo correspondiente, documentación y scripts de compilación y empaquetado.
-- **SHA256SUMS.txt**: hashes de ambos ZIP.
+La etiqueta v0.0.1 conserva la publicación inicial de documentación; para reproducir exactamente aquella entrega también está el adjunto `Fenix-Emulator-0.0.1-source.zip`. No se ha reescrito la etiqueta ni sustituido sus binarios.
 
-El código completo se proporciona como archivo adjunto de la versión. Estos archivos de la portada contienen la documentación consultable; no representan por sí solos todo el árbol del motor.
+## Estado
 
-## Uso
+Proyecto experimental. La versión 0.0.1 cambia la interfaz sobre una base de emulación existente y conserva el parche gráfico local HSETP2. Bananza sigue mostrando terreno negro en ciertas zonas. Este cambio visual no supone mejoras de rendimiento ni compatibilidad completa.
 
-Extrae el paquete Windows completo y abre `fenix.exe`. Usa **Abrir juego** o las opciones de carga de archivo/carpeta. En **Configuración** se conservan las secciones de video, audio y controles.
+## Usar la versión portable
 
-La entrega no contiene claves, firmware, juegos ni partidas. Los datos de cada instalación portable se guardan en su carpeta `user/`.
+1. Extraer el paquete completo en una carpeta.
+2. Abrir `fenix.exe` junto a sus DLL y plugins.
+3. Usar **Abrir juego** o los menús de carga de archivo/carpeta.
+4. Entrar en **Configuración** para ajustar video, audio y controles.
 
-## Estado comprobado y pendientes
+La carpeta `user/` contiene los datos locales de la instalación portable. Conserva tus respaldos antes de trasladar datos. Una distribución pública no incluye claves, firmware, juegos ni partidas.
 
-Compilación Windows x64 completada. Regresión HSETP2: **39.698 comprobaciones aprobadas en dos casos**. Biblioteca, paneles, detección del mando, versión y créditos revisados. El usuario confirmó la carga del juego en la primera prueba.
-
-El terreno negro de Bananza sigue pendiente. También queda la revisión visual del último ajuste de espaciado de botones y una prueba prolongada del ejecutable final. No se declara compatibilidad completa ni una mejora de rendimiento por el cambio de interfaz.
-
-La detección automática del `main` de respaldos extraídos todavía no está implementada. Añadir carpeta mantiene el comportamiento de la base.
+La detección automática de respaldos extraídos y la elección de su `main` siguen pendientes. **Añadir carpeta** conserva la detección de la base; no se presenta como la nueva función solicitada.
 
 ## Documentación
 
-- [Compilar y empaquetar](FENIX_BUILD.md)
-- [Avances y procedencia](FENIX_HISTORY.md)
-- [Historial de cambios](CHANGELOG.md)
-- [Comprobaciones y límites](VALIDATION.md)
+- [Compilar y empaquetar](docs/FENIX_BUILD.md)
+- [Avances y procedencia técnica](docs/FENIX_HISTORY.md)
+- [Cambios de la versión](CHANGELOG.md)
+- [Preparar la publicación en GitHub](docs/PUBLICAR_EN_GITHUB.md)
 - [Licencias y atribuciones](NOTICE.md)
+- [Validación de esta entrega](docs/VALIDATION.md)
 
-## Proyecto y licencia
+## Código y licencia
 
-Identidad del proyecto: **FenixPoderoso**. Fenix Emulator deriva de Eden-NS2, Eden y yuzu. Se conservan los copyrights, las licencias y la procedencia del motor. Consulta [LICENSE.txt](LICENSE.txt), [NOTICE.md](NOTICE.md) y los avisos SPDX del código.
+Fenix Emulator deriva de Eden-NS2, Eden y yuzu. Se conservan los copyrights y las licencias de sus autores. El motor y sus identificadores internos proceden de esa base; FenixPoderoso identifica este proyecto y su nueva presentación.
 
-Los cambios Fenix se ofrecen bajo GPL-3.0-or-later. Se utilizó Codex para preparar interfaz y documentación. Proyecto independiente sin afiliación con Nintendo ni con los proyectos originales.
+Consultar [LICENSE.txt](LICENSE.txt), [LICENSES](LICENSES/) y los avisos SPDX por archivo. Los cambios Fenix se ofrecen bajo GPL-3.0-or-later. Se utilizó Codex para preparar la interfaz y documentación; la revisión y publicación son responsabilidad del autor humano.
+
+Nintendo Switch es una marca de Nintendo. Proyecto independiente sin afiliación con Nintendo ni con los proyectos originales.

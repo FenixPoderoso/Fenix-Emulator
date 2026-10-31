@@ -1,0 +1,1 @@
+Describe el problema y el resultado del cambio. Indica cómo se probó, las limitaciones y cualquier uso de IA. El autor humano debe escribir y revisar esta descripción. Consulta CONTRIBUTING.md y docs/policies/AI.md.

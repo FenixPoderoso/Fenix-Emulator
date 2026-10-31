@@ -25,7 +25,7 @@ Fecha: 31-10-2026, America/Punta_Arenas. Identidad del proyecto: **FenixPoderoso
 | Regresión HSETP2 | 39.698 comprobaciones aprobadas en dos casos con el ejecutable de pruebas existente. |
 | Código preparado | Los archivos Fenix y del parche local se compararon por hash con las fuentes usadas en la compilación. |
 | Formato del diff | `git diff --check` sin errores; Git avisa de la normalización habitual LF/CRLF en Windows. |
-| Publicación | Documentación subida por la web a main y versión experimental v0.0.1 publicada con código fuente completo adjunto. El árbol de fuentes local no se subió mediante Git. |
+| Código y publicación | Integración del árbol completo con origin/main después de autenticar Git. Se conserva la publicación experimental v0.0.1 y su etiqueta original. |
 
 ## Prueba del usuario y límites
 
@@ -41,4 +41,4 @@ La copia de uso tiene datos portables independientes. La primera prueba produjo 
 
 El paquete público se prepara a partir de una carpeta separada con `user/PORTABLE.txt` únicamente. Las claves, firmware, partidas, configuraciones y registros locales no forman parte de la entrega pública.
 
-La publicación y sus hashes se registran en [PUBLICATION.md](PUBLICATION.md).
+Registro de publicación: [PUBLICATION.md](PUBLICATION.md). La versión canónica de este documento se mantiene en [docs/VALIDATION.md](docs/VALIDATION.md).

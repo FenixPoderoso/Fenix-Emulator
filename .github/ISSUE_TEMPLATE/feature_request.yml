@@ -1,0 +1,9 @@
+name: Propuesta para Fenix
+description: Propón una mejora concreta.
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Problema y comportamiento deseado
+    validations:
+      required: true
