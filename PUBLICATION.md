@@ -4,7 +4,7 @@ Publicado por autorización expresa de FenixPoderoso el 31-10-2026 (America/Punt
 
 - Repositorio: https://github.com/FenixPoderoso/fenix-emulator
 - Versión experimental: https://github.com/FenixPoderoso/fenix-emulator/releases/tag/v0.0.1
-- Visibilidad conservada: privado.
+- Visibilidad actual: público. Se cambió por petición expresa de FenixPoderoso el 31-10-2026; la publicación inicial fue privada.
 - Commit de documentación inicial: `cfeba185293dcc9dc131d7fe7597c4a639bc81b1`.
 - Código completo: adjunto `Fenix-Emulator-0.0.1-source.zip`, con 4.744 entradas.
 - Tras completar la autenticación oficial de Git, el árbol completo de fuentes se integra en main como carpetas navegables. Se conservan los commits de documentación ya publicados. La fuente se incorpora como instantánea porque la copia de la base tiene historial superficial; la rama local anterior y la referencia del commit base se conservan.

@@ -1,6 +1,6 @@
 # Publicar Fenix Emulator
 
-El repositorio es https://github.com/FenixPoderoso/fenix-emulator y mantiene visibilidad privada. La versión experimental v0.0.1 está publicada. Tras autenticar Git se integra el árbol completo conservando los commits existentes. Las instrucciones siguientes sirven de referencia para futuras versiones; no recrear ni forzar la etiqueta v0.0.1.
+El repositorio es https://github.com/FenixPoderoso/fenix-emulator y tiene visibilidad pública por petición de FenixPoderoso. La versión experimental v0.0.1 está publicada. Tras autenticar Git se integra el árbol completo conservando los commits existentes. Las instrucciones siguientes sirven de referencia para futuras versiones; no recrear ni forzar la etiqueta v0.0.1.
 
 1. Revisar los cambios y los resultados de validación. El usuario debe revisar, entender y probar el código antes de presentarlo como versión pública.
 2. Crear el repositorio desde la cuenta de **FenixPoderoso**. Elegir nombre, visibilidad y descripción; esta documentación no presupone una dirección de GitHub concreta.
